@@ -15,7 +15,9 @@ Gund?lik h?yat?m?zda istifad? etdiyimiz dill?r(Ingilis,Ispan,Az?rbaycan,Rus dill
 > 
 Ifad?l?ri r?q?msal ifad? etdiyimiz zaman h?min k?lim?l?r uz?rind? riyazi ?m?liyyatlar aparmaq daha ## rahatd?r.
 H?r bir ifad?ni one-hot vektor olaraq t?svir ets?k 
-![](http://image/one-hot.jpg)
+
+<p align="center"> <img src="image/one-hot.jpg" alt="drawing" width="500"/> </p>
+
 
 Yuxar?dak? r?simd? gost?ril?n ilk F?ls?f? ifad?si vektor olaraq uygunluq indeksi -0,
  Insan k?lim?si vektor daxilind? birinci indeksd? dayan?r.
