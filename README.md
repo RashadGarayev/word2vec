@@ -43,4 +43,26 @@ Embedding Matrix(word vector,word embedding)
 Vektorlar? t?skil etm?k ,ucun cuml? daxilind? secil?n soz(ifad?) ?traf?ndak? sozl?rl? ?laq?sini t?yin ed?r?k haz?rlayacag?q.(Qeyd edimki sag v? sol k?lim? uygunlugunu t?sadufi deyil,window-parametri il? biz secirik)
 <p align="center"> <img src="image/v.jpg" alt="drawing" width="400"/> </p>
 
+# Korpusun haz?rlan?lmas? #
+Az sayda k?lim?l?rd?n t?skil olun korpus,biz? ist?diyimiz modelin n?tic?sini verm?y?c?k.Bunun ucun daha prespektiv wiki layih?l?ri kimi k?lim?l?r toplusu olan datalara ehtiyyac?m?z var.Yuxar?da qeyd olunan korpus sad?c? numun? ucun haz?rlan?lm?sd?r.N?tic? etibar? il? k?lim?y? ?n yax?n dig?r k?lim?l?rin bir nec?si uygunluq t?skil etmisdir.
+
+word2vec vasit?sil? k?lim? vektoru haz?rlamaq  ucun iki f?rqli alqoritmd?n istifad? olunur
+> skip-gram
+> cbow alqoritmas?
+
+Istifad? etdiyimiz kodlarda skip-gram alqoritmas?na n?z?r yetir?k.(Qeyd vektorlar?n haz?rlan?lmas?nda alqoritman? qeyd etm?s?niz normal halda cbow-alqrt ?lav? olunur-DEFAULT:CBOW)
+
+<p align="center"> <img src="image/skipg.jpg" alt="drawing" width="500"/> </p>
+
+----------
+`$ git clone https://github.com/RashadGarayev/word2vec`
+
+`$ cd word2vec`
+
+`$ pip install -r requirements.txt`
+
+
+
+
+
 
