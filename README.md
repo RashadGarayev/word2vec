@@ -21,3 +21,26 @@ H?r bir ifad?ni one-hot vektor olaraq t?svir ets?k
 
 Yuxar?dak? r?simd? gost?ril?n ilk F?ls?f? ifad?si vektor olaraq uygunluq indeksi -0,
  Insan k?lim?si vektor daxilind? birinci indeksd? dayan?r.
+
+Yuxar?dak? t?svir? ?saslansaq,ifad? say? coxald?qca k?lim?l?ri tan?mlamaq c?tinl?s?c?q.Bunun ucun alternativ olaraq one-hot vektoru deyil,h?r bir k?lim?ni vektor il? t?skil edib(word2vec) h?r bir vektor k?lim? ucun 0 v? 1 aras?nda h?qiqi ?d?d tipind? gost?r?c?yik.
+
+Embedding Matrix(word vector,word embedding)
+
+> Insan([ 3.26409712e-02, -1.11495465e-01, -1.09878801e-01, -1.61514040e-02,
+        6.24946095e-02, -5.53264767e-02,  1.88343860e-02, -3.00338143e-03,
+       -1.54164627e-01, -6.94016367e-02,  1.75558016e-01,  8.69417936e-02..................] size=200
+
+
+>F?ls?f? ([ 0.03672487, -0.11063578, -0.09298438, -0.01961881,  0.05883814,
+       -0.05005358,  0.01460049, -0.00244978, -0.15134725, -0.07507091,
+        0.1764792 ,  0.08856005, -0.11544561,  0.13122901,  0.02955697,
+       -0.08000021, -0.10689594,  0.00531672, -0.07659401, -0.01527801,
+       -0.27507988,  0.04865298,  0.01300979, -0.1417728 , -0.03595459.........................] size=200
+
+
+----------
+
+Vektorlar? t?skil etm?k ,ucun cuml? daxilind? secil?n soz(ifad?) ?traf?ndak? sozl?rl? ?laq?sini t?yin ed?r?k haz?rlayacag?q.(Qeyd edimki sag v? sol k?lim? uygunlugunu t?sadufi deyil,window-parametri il? biz secirik)
+<p align="center"> <img src="image/v.jpg" alt="drawing" width="400"/> </p>
+
+
