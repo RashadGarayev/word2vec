@@ -1,4 +1,4 @@
-﻿# word2vec
+# word2vec
 
 ----------
 
@@ -13,7 +13,7 @@ Gündəlik həyatımızda istifadə etdiyimiz dillər(İngilis,İspan,Azərbayca
 
 ----------
 > 
-İfadələri rəqəmsal ifadə etdiyimiz zaman həmin kəlimələr üzərində riyazi əməliyyatlar aparmaq daha ## rahatdır.
+İfadələri rəqəmsal ifadə etdiyimiz zaman həmin kəlimələr üzərində riyazi əməliyyatlar aparmaq daha  rahatdır.
 Hər bir ifadəni one-hot vektor olaraq təsvir etsək 
 
 <p align="center"> <img src="image/one-hot.jpg" alt="drawing" width="500"/> </p>
@@ -43,14 +43,14 @@ Embedding Matrix(word vector,word embedding)
 Vektorları təşkil etmək ,üçün cümlə daxilində seçilən söz(ifadə) ətrafındakı sözlərlə əlaqəsini təyin edərək hazırlayacağıq.(Qeyd edimki sağ və sol kəlimə uyğunluğunu təsadüfi deyil,window-parametri ilə biz seçirik)
 <p align="center"> <img src="image/v.jpg" alt="drawing" width="400"/> </p>
 
-# Korpusun haz?rlan?lmas? #
-Az sayda k?lim?l?rd?n t?skil olun korpus,biz? ist?diyimiz modelin n?tic?sini verm?y?c?k.Bunun ucun daha prespektiv wiki layih?l?ri kimi k?lim?l?r toplusu olan datalara ehtiyyac?m?z var.Yuxar?da qeyd olunan korpus sad?c? numun? ucun haz?rlan?lm?sd?r.N?tic? etibar? il? k?lim?y? ?n yax?n dig?r k?lim?l?rin bir nec?si uygunluq t?skil etmisdir.
+# Korpusun hazırlanılması #
+Az sayda kəlimələrdən təşkil olunmuş korpus,bizə istədiyimiz modelin nəticəsini verməyəcək.Bunun ucun daha prespektiv wikimedia layihələri kimi söz datasetlərindən ibarət  olan datalara ehtiyyacımız var.Yuxarıda qeyd olunan korpus sadəcə nümunə üçün hazırlanılmışdır.Nəticə etibarı ilə modelə verdiyimiz söz,həmin kəliməyə uyğun ifadələr yaxınlılığ hesabı ilə göstərilmişdir.
 
-word2vec vasit?sil? k?lim? vektoru haz?rlamaq  ucun iki f?rqli alqoritmd?n istifad? olunur
+word2vec vasitəsilə vektor hazırlamaq  üçün iki fərqli alqoritmdən istifadə olunur
 > skip-gram
-> cbow alqoritmas?
+> cbow alqoritması
 
-Istifad? etdiyimiz kodlarda skip-gram alqoritmas?na n?z?r yetir?k.(Qeyd vektorlar?n haz?rlan?lmas?nda alqoritman? qeyd etm?s?niz normal halda cbow-alqrt ?lav? olunur-DEFAULT:CBOW)
+ kodlarımızda skip-gram alqoritmasından istifadə olunmuşdur.Alqoritmanın işləmə prinsipinə nəzər yetirək(Qeyd vektorların hazırlanılmasında alqoritmanı qeyd etməsəniz, normal halda cbow-alqoritmi əlavə olunur-DEFAULT:CBOW)
 
 <p align="center"> <img src="image/skipg.jpg" alt="drawing" width="500"/> </p>
 
