@@ -4,25 +4,25 @@
 
 # Natural Language Processing(NLP) #
 
-T?snifat?na gor? dill?ri iki qrupa bols?k:
-> T?bii dill?r 
-v? Sunii dill?r
+Təsnifatına görə dilləri iki qrupa bölsək:
+> Təbii dillər 
+və Sünii dillər
 
-Gund?lik h?yat?m?zda istifad? etdiyimiz dill?r(Ingilis,Ispan,Az?rbaycan,Rus dill?ri) t?bii dil olaraq adlan?r.Bir-birimiz? fikrimizi dil vasit?sil? catd?r?r?q.Suni dill?r? misal olaraq Turing mas?nlar? uz?rind? cal?san xususi dill?rdir(0 v? 1,Pascal,Fortan,C/C++,Python,Java v? s).B?hs etdiyimiz "t?bii dil isl?m?(NLP)" bir dild?ki cuml?ni oxumas? v? basqa bir dild? uygun bir cuml?y? uygunlugunun t?skili mas?n cevirm?l?ridir.NLP -nin cal?sma prinspi,t?bii bir dil uz?rind?-daxilind? ifad? olunan h?r bir k?lim?-xarakterl?rd?n v? ya bayt array-d?n t?skil olunan modell?rdir([https://www.deeplearningbook.org/](https://www.deeplearningbook.org/ "Deep Learning book"))
-> Bir dil modeli,t?bii dild? token vektoru uz?rind? t?xmini dag?l?m t?yin edir.Modelin haz?rlanmas?na bagl? olaraq,tokenl?r - bir k?lim?,xarakter v? ya bayt ola bilirl?r.Ilk olaraq dil modell?ri n-gram adland?r?lan sabit uzunluqdak? token vektorlar?n?n modell?rind?n t?skil olunmusdur(Bundan basqa skip-gram,cbow).
+Gündəlik həyatımızda istifadə etdiyimiz dillər(İngilis,İspan,Azərbaycan,Rus dilləri) təbii dil olaraq adlanır.Bir-birimizə fikrimizi dil vasitəsilə çatdırırıq.Süni dillərə misal olaraq Türing maşınları üzərində çalışan xüsusi dillərdir(0 və 1,Pascal,Fortan,C/C++,Python,Java və s).Bəhs etdiyimiz "təbii dil işləmə(NLP)" bir dildəki cümləni oxuması və başqa bir dildə uyğun bir cümləyə uyğunluğunun təşkili maşın çevirmələridir.NLP -nin çalışma prinspi,təbii bir dil üzərində-daxilində ifadə olunan hər bir kəlimə-xarakterlərdən və ya bayt array-dən təşkil olunan modellərdir([https://www.deeplearningbook.org/](https://www.deeplearningbook.org/ "Deep Learning book"))
+> Bir dil modeli,təbii dildə token vektoru üzərində təxmini dağılım təyin edir.Modelin hazırlanmasına bağlı olaraq,tokenlər - bir kəlimə,xarakter və ya bayt ola bilirlər.İlk olaraq dil modelləri n-gram adlandırılan sabit uzunluqdakı token vektorlarının modellərindən təşkil olunmuşdur(Bundan başqa skip-gram,cbow).
 
 ----------
 > 
-Ifad?l?ri r?q?msal ifad? etdiyimiz zaman h?min k?lim?l?r uz?rind? riyazi ?m?liyyatlar aparmaq daha ## rahatd?r.
-H?r bir ifad?ni one-hot vektor olaraq t?svir ets?k 
+İfadələri rəqəmsal ifadə etdiyimiz zaman həmin kəlimələr üzərində riyazi əməliyyatlar aparmaq daha ## rahatdır.
+Hər bir ifadəni one-hot vektor olaraq təsvir etsək 
 
 <p align="center"> <img src="image/one-hot.jpg" alt="drawing" width="500"/> </p>
 
 
-Yuxar?dak? r?simd? gost?ril?n ilk F?ls?f? ifad?si vektor olaraq uygunluq indeksi -0,
- Insan k?lim?si vektor daxilind? birinci indeksd? dayan?r.
+Yuxarıdakı rəsimdə göstərilən ilk Fəlsəfə ifadəsi vektor olaraq uyğunluq indeksi -0,
+ İnsan kəliməsi vektor daxilində birinci indeksdə dayanır.
 
-Yuxar?dak? t?svir? ?saslansaq,ifad? say? coxald?qca k?lim?l?ri tan?mlamaq c?tinl?s?c?q.Bunun ucun alternativ olaraq one-hot vektoru deyil,h?r bir k?lim?ni vektor il? t?skil edib(word2vec) h?r bir vektor k?lim? ucun 0 v? 1 aras?nda h?qiqi ?d?d tipind? gost?r?c?yik.
+Yuxarıdakı təsvirə əsaslansaq,ifadə sayı çoxaldıqca kəlimələri tanımlamaq çətinləşəcəq.Bunun üçün alternativ olaraq one-hot vektoru deyil,hər bir kəliməni vektor ilə təşkil edib(word2vec) hər bir vektor kəlimə üçün 0 və 1 arasında həqiqi ədəd tipində göstərəcəyik.
 
 Embedding Matrix(word vector,word embedding)
 
@@ -31,7 +31,7 @@ Embedding Matrix(word vector,word embedding)
        -1.54164627e-01, -6.94016367e-02,  1.75558016e-01,  8.69417936e-02..................] size=200
 
 
->F?ls?f? ([ 0.03672487, -0.11063578, -0.09298438, -0.01961881,  0.05883814,
+>Fəlsəfə ([ 0.03672487, -0.11063578, -0.09298438, -0.01961881,  0.05883814,
        -0.05005358,  0.01460049, -0.00244978, -0.15134725, -0.07507091,
         0.1764792 ,  0.08856005, -0.11544561,  0.13122901,  0.02955697,
        -0.08000021, -0.10689594,  0.00531672, -0.07659401, -0.01527801,
@@ -40,7 +40,7 @@ Embedding Matrix(word vector,word embedding)
 
 ----------
 
-Vektorlar? t?skil etm?k ,ucun cuml? daxilind? secil?n soz(ifad?) ?traf?ndak? sozl?rl? ?laq?sini t?yin ed?r?k haz?rlayacag?q.(Qeyd edimki sag v? sol k?lim? uygunlugunu t?sadufi deyil,window-parametri il? biz secirik)
+Vektorları təşkil etmək ,üçün cümlə daxilində seçilən söz(ifadə) ətrafındakı sözlərlə əlaqəsini təyin edərək hazırlayacağıq.(Qeyd edimki sağ və sol kəlimə uyğunluğunu təsadüfi deyil,window-parametri ilə biz seçirik)
 <p align="center"> <img src="image/v.jpg" alt="drawing" width="400"/> </p>
 
 
