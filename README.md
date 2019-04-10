@@ -8,7 +8,7 @@ Təsnifatına görə dilləri iki qrupa bölsək:
 > Təbii dillər 
 və Sünii dillər
 
-Gündəlik həyatımızda istifadə etdiyimiz dillər(İngilis,İspan,Azərbaycan,Rus dilləri) təbii dil olaraq adlanır.Bir-birimizə fikrimizi dil vasitəsilə çatdırırıq.Süni dillərə misal olaraq Türing maşınları üzərində çalışan xüsusi dillərdir(0 və 1,Pascal,Fortan,C/C++,Python,Java və s).Bəhs etdiyimiz "təbii dil işləmə(NLP)" bir dildəki cümləni oxuması və başqa bir dildə uyğun bir cümləyə uyğunluğunun təşkili maşın çevirmələridir.NLP -nin çalışma prinspi,təbii bir dil üzərində-daxilində ifadə olunan hər bir kəlimə-xarakterlərdən və ya bayt array-dən təşkil olunan modellərdir([https://www.deeplearningbook.org/](https://www.deeplearningbook.org/ "Deep Learning book"))
+Gündəlik həyatımızda istifadə etdiyimiz dillər(İngilis,İspan,Azərbaycan,Rus dilləri) təbii dil olaraq adlanır.Bir-birimizə fikrimizi dil vasitəsilə çatdırırıq.Süni dillərə misal olaraq Türing maşınları üzərində çalışan xüsusi dillərdir(Pascal,Fortan,C/C++,Python,Java və s).Bəhs etdiyimiz "təbii dil işləmə(NLP)" bir dildəki cümləni oxuması və başqa bir dildə uyğun bir cümləyə uyğunluğunun təşkili maşın çevirmələridir.NLP -nin çalışma prinspi,təbii bir dil üzərində-daxilində ifadə olunan hər bir kəlimə-xarakterlərdən və ya bayt array-dən təşkil olunan modellərdir([https://www.deeplearningbook.org/](https://www.deeplearningbook.org/ "Deep Learning book"))
 > Bir dil modeli,təbii dildə token vektoru üzərində təxmini dağılım təyin edir.Modelin hazırlanmasına bağlı olaraq,tokenlər - bir kəlimə,xarakter və ya bayt ola bilirlər.İlk olaraq dil modelləri n-gram adlandırılan sabit uzunluqdakı token vektorlarının modellərindən təşkil olunmuşdur(Bundan başqa skip-gram,cbow).
 
 ----------
