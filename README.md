@@ -22,7 +22,7 @@ Hər bir ifadəni one-hot vektor olaraq təsvir etsək
 Yuxarıdakı rəsimdə göstərilən ilk Fəlsəfə ifadəsi vektor olaraq uyğunluq indeksi -0,
  İnsan kəliməsi vektor daxilində birinci indeksdə dayanır.
 
-Yuxarıdakı təsvirə əsaslansaq,ifadə sayı çoxaldıqca kəlimələri tanımlamaq çətinləşəcəq.Bunun üçün alternativ olaraq one-hot vektoru deyil,hər bir kəliməni vektor ilə təşkil edib(word2vec) hər bir vektor kəlimə üçün 0 və 1 arasında həqiqi ədəd tipində göstərəcəyik.
+Yuxarıdakı təsvirə əsaslansaq,ifadə sayı çoxaldıqca kəlimələri tanımlamaq çətinləşəcəq.Bunun üçün alternativ olaraq one-hot vektoru deyil,hər bir kəliməni vektor ilə təşkil edib(word2vec) hər bir vektor kəlimə üçün  həqiqi ədəd tipində göstərəcəyik.
 
 Embedding Matrix(word vector,word embedding)
 
