@@ -1,6 +1,6 @@
-pip install --upgrade tensorflow_gpu
-pip install msgpack
-pip install gensim
-pip install sklearn
-pip install keras
-pip install numpy
+tensorflow_gpu
+msgpack
+gensim
+sklearn
+keras
+numpy
